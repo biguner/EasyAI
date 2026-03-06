@@ -1,3 +1,5 @@
+诸如：git clone git@github.com:biguner/EasyAI.git
+
 你在使用 SSH 方式克隆 GitHub 仓库时遇到了 Permission denied (publickey) 错误，这是因为你的本地 SSH 密钥没有被 GitHub 账户授权。以下是解决步骤：
 
 1. 在机器上生成新的 SSH 密钥，必须使用github上的标识 （文件名建议包含机器标识，方便日后管理，比如 github_machineB，我这里是ed25519_github_lzzm_2GPU）
